@@ -7,9 +7,26 @@ export const Hero = () => {
       {/* Dot Grid Pattern - Techy Background */}
       <div className="dot-grid-pattern" />
 
+      {/* Animated Floating Particles */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {[...Array(15)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute w-1.5 h-1.5 bg-[var(--color-primary)]/40 rounded-full animate-float shadow-lg shadow-[var(--color-primary)]/40"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animation: `float ${6 + Math.random() * 10}s infinite`,
+              animationDelay: `${Math.random() * 4}s`,
+              opacity: Math.random() * 0.6 + 0.35,
+            }}
+          />
+        ))}
+      </div>
+
       {/* Background Gradient Effect */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,_rgba(14,165,233,0.1)_0%,_transparent_70%)] blur-3xl -translate-y-1/2 translate-x-1/4 pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[radial-gradient(circle,_rgba(14,165,233,0.08)_0%,_transparent_70%)] blur-3xl translate-y-1/2 -translate-x-1/4 pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,_rgba(14,165,233,0.1)_0%,_transparent_70%)] blur-3xl -translate-y-1/2 translate-x-1/4 pointer-events-none animate-gradient-shift" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[radial-gradient(circle,_rgba(14,165,233,0.08)_0%,_transparent_70%)] blur-3xl translate-y-1/2 -translate-x-1/4 pointer-events-none animate-gradient-shift-delay" />
 
       {/* Content - Centered */}
       <div className="max-w-5xl w-full z-10">
@@ -45,7 +62,10 @@ export const Hero = () => {
               className="inline-flex flex-col items-center gap-2 text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors duration-300 group"
             >
               <span className="text-sm font-medium">Scroll to explore</span>
-              <HiArrowDown size={24} className="group-hover:translate-y-1 transition-transform duration-300 animate-bounce" />
+              <div className="relative">
+                <HiArrowDown size={24} className="group-hover:translate-y-1 transition-transform duration-300 animate-bounce relative z-10" />
+                <div className="absolute inset-0 bg-[var(--color-primary)]/30 rounded-full blur-md animate-pulse" style={{ animation: 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }} />
+              </div>
             </a>
           </div>
         </div>

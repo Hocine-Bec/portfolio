@@ -69,7 +69,7 @@ export const Projects = () => {
                     {filteredProjects.map((project) => (
                         <ProjectCard key={project.id} project={project} />
                     ))}
-                </div>                                                                                                                                                                                                      
+                </div>
 
                 {/* Empty State */}
                 {filteredProjects.length === 0 && (
