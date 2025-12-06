@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import emailjs from '@emailjs/browser';
-import { HiMail, HiLocationMarker } from 'react-icons/hi';
+import { HiMail } from 'react-icons/hi';
 import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import toast from 'react-hot-toast';
 
