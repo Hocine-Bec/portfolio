@@ -82,7 +82,7 @@ export const Process = () => {
             </div>
             <h4 className="font-bold text-[var(--color-text-primary)] mb-2">Direct Communication</h4>
             <p className="text-sm text-[var(--color-text-muted)]">
-              Work directly with me throughout the entire project—no middlemen, no miscommunication
+              Work directly with me throughout the entire project. No middlemen, no miscommunication
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export const Process = () => {
             </div>
             <h4 className="font-bold text-[var(--color-text-primary)] mb-2">Quality-Focused</h4>
             <p className="text-sm text-[var(--color-text-muted)]">
-              Every project matters when building a reputation—you get my full attention and best work
+              Every project matters when building a reputation. You get my full attention and best work
             </p>
           </div>
         </div>
