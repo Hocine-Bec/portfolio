@@ -38,12 +38,11 @@ export const About = () => {
               </div>
 
               <p className="text-lg text-[var(--color-text-muted)] leading-relaxed">
-                I bridge the gap that kills most projects, the disconnect between design and code. When one person owns both, your product ships faster, costs less, and actually matches the vision. No endless revision cycles. No "that's not what I designed" moments. Just pixel-perfect execution from concept to deployment.
+                I bring together <span className="text-[var(--color-text-primary)] font-semibold">design and development skills to deliver complete solutions</span>. This means you work with one person who understands both how your product should look and how it needs to function. Resulting in faster delivery and fewer revisions.
               </p>
 
               <p className="text-lg text-[var(--color-text-muted)] leading-relaxed">
-                Behind every interface I build is architecture that scales. 
-                <span className="text-[var(--color-text-secondary)] font-semibold">Clean Architecture and patterns that keep your codebase maintainable as your team grows. </span> The kind of foundation that makes your next developer say "whoever built this knew what they were doing" instead of wanting to rewrite everything.
+                My code follows <span className="text-[var(--color-text-primary)] font-semibold">industry best practices and clean architecture principles</span>, ensuring your solution is <span className="text-[var(--color-text-primary)] font-semibold">reliable, secure, and ready to grow with your business</span>.
               </p>
             </div>
 

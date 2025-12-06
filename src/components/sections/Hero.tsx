@@ -14,17 +14,17 @@ export const Hero = () => {
       {/* Content - Centered */}
       <div className="max-w-5xl w-full z-10">
         <div className="space-y-8 text-center animate-in fade-in slide-in-from-bottom duration-700">
-          {/* Main Headline - Client Focused */}
+          {/* Main Headline */}
           <h1 className="text-4xl mt-10 sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight">
-            Turn Your Vision Into a{' '}
+            Building Custom Solutions That{' '}
             <span className="text-gradient">
-              High-Performing Digital Product
+              Solve Real Problems
             </span>
           </h1>
 
           {/* Subheading - Value Proposition */}
           <p className="text-lg sm:text-xl text-[var(--color-text-muted)] max-w-3xl mx-auto leading-relaxed">
-            <span className='text-[var(--color-text-primary)]'>I help small and mid-sized businesses build custom solutions that deliver measurable results. </span>
+            <span className='text-[var(--color-text-primary)]'>I help small businesses build custom solutions that deliver measurable results. </span>
             From early design to final deployment, I handle the entire process ensuring clarity, consistency, and momentum at every step.
           </p>
 
